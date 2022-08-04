@@ -1,4 +1,4 @@
-package com.sinblack.springboottutorial.validation;
+package com.sinhblack.springboottutorial.validation;
 
 import org.springframework.validation.Errors;
 import org.springframework.validation.ObjectError;

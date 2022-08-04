@@ -1,4 +1,4 @@
-package com.sinblack.springboottutorial.error;
+package com.sinhblack.springboottutorial.error;
 
 import java.io.IOException;
 import java.nio.charset.Charset;

@@ -1,4 +1,4 @@
-package com.sinblack.springboottutorial;
+package com.sinhblack.springboottutorial;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

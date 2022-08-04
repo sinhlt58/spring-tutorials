@@ -1,12 +1,9 @@
-package com.sinblack.springboottutorial.client;
+package com.sinhblack.springboottutorial.client;
 
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.Map;
-
-import com.sinblack.springboottutorial.domain.ToDo;
-import com.sinblack.springboottutorial.error.ToDoErrorHandler;
 
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
@@ -15,6 +12,9 @@ import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+
+import com.sinhblack.springboottutorial.domain.ToDo;
+import com.sinhblack.springboottutorial.error.ToDoErrorHandler;
 
 @Service
 public class ToDoRestClient {

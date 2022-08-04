@@ -1,4 +1,4 @@
-package com.sinblack.springboottutorial.domain;
+package com.sinhblack.springboottutorial.domain;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

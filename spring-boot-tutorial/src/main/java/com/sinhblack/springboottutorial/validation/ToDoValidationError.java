@@ -1,4 +1,4 @@
-package com.sinblack.springboottutorial.validation;
+package com.sinhblack.springboottutorial.validation;
 
 import java.util.ArrayList;
 import java.util.List;

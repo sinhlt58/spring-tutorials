@@ -1,4 +1,4 @@
-package com.sinblack.springboottutorial.repository;
+package com.sinhblack.springboottutorial.repository;
 
 import java.util.Collection;
 

@@ -1,4 +1,4 @@
-package com.sinblack.springboottutorial.repository;
+package com.sinhblack.springboottutorial.repository;
 
 import java.sql.ResultSet;
 import java.time.LocalDateTime;
@@ -7,13 +7,13 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.sinblack.springboottutorial.domain.ToDo;
-
 import org.springframework.context.annotation.Primary;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;
+
+import com.sinhblack.springboottutorial.domain.ToDo;
 
 @Primary
 @Repository

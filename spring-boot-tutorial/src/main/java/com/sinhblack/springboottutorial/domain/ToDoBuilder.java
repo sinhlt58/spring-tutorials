@@ -1,4 +1,4 @@
-package com.sinblack.springboottutorial.domain;
+package com.sinhblack.springboottutorial.domain;
 
 public class ToDoBuilder {
   

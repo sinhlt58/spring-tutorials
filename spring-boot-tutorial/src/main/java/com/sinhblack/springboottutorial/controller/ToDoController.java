@@ -1,14 +1,8 @@
-package com.sinblack.springboottutorial.controller;
+package com.sinhblack.springboottutorial.controller;
 
 import java.net.URI;
 
 import javax.validation.Valid;
-
-import com.sinblack.springboottutorial.domain.ToDo;
-import com.sinblack.springboottutorial.domain.ToDoBuilder;
-import com.sinblack.springboottutorial.repository.CommonRepository;
-import com.sinblack.springboottutorial.validation.ToDoValidationError;
-import com.sinblack.springboottutorial.validation.ToDoValidationErrorBuilder;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -25,6 +19,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import com.sinhblack.springboottutorial.domain.ToDo;
+import com.sinhblack.springboottutorial.domain.ToDoBuilder;
+import com.sinhblack.springboottutorial.repository.CommonRepository;
+import com.sinhblack.springboottutorial.validation.ToDoValidationError;
+import com.sinhblack.springboottutorial.validation.ToDoValidationErrorBuilder;
 
 @RestController
 @RequestMapping("/api")

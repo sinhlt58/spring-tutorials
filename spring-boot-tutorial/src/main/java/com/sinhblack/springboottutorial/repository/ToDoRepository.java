@@ -1,4 +1,4 @@
-package com.sinblack.springboottutorial.repository;
+package com.sinhblack.springboottutorial.repository;
 
 import java.time.LocalDateTime;
 import java.util.Collection;
@@ -7,9 +7,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import com.sinblack.springboottutorial.domain.ToDo;
-
 import org.springframework.stereotype.Repository;
+
+import com.sinhblack.springboottutorial.domain.ToDo;
 
 @Repository
 public class ToDoRepository implements CommonRepository<ToDo> {

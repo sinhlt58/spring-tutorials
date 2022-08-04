@@ -1,4 +1,4 @@
-package com.sinblack.springboottutorial.client;
+package com.sinhblack.springboottutorial.client;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
