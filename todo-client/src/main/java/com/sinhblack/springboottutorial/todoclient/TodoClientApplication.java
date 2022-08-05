@@ -42,8 +42,8 @@ public class TodoClientApplication {
       assert completed.isCompleted();
       log.info(completed.toString());
 
-      client.delete(newToDo.getId());
-      assert client.findById(newToDo.getId()) == null;
+      // client.delete(newToDo.getId());
+      // assert client.findById(newToDo.getId()) == null;
     };
   }
 
